@@ -13,3 +13,6 @@ A lightweight, educational mini hash cracking tool written in Python.  For ethic
 ### Basic (auto-detect hash type) -- python crack.py <hash> <wordlist>
 or you can use '--type' command, example: 'python crack.py wordlist.txt --type md5'
 
+## Wordlist Source
+This tool was tested with the [10k-most-common.txt](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt) 
+wordlist from [SecLists](https://github.com/danielmiessler/SecLists) by Daniel Miessler.
